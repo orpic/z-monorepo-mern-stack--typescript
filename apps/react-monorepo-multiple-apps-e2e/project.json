@@ -1,0 +1,35 @@
+{
+  "name": "react-monorepo-multiple-apps-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/react-monorepo-multiple-apps-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nx/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/react-monorepo-multiple-apps-e2e/cypress.config.ts",
+        "devServerTarget": "react-monorepo-multiple-apps:serve:development",
+        "testingType": "e2e"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "react-monorepo-multiple-apps:serve:production"
+        },
+        "ci": {
+          "devServerTarget": "react-monorepo-multiple-apps:serve-static"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "apps/react-monorepo-multiple-apps-e2e/**/*.{js,ts}"
+        ]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["react-monorepo-multiple-apps"]
+}
