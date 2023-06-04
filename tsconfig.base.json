@@ -17,6 +17,9 @@
     "paths": {
       "@react-monorepo-multiple-apps/shared-components": [
         "libs/shared-components/src/index.js"
+      ],
+      "@react-monorepo-multiple-apps/shared-ui-component": [
+        "libs/shared-ui-component/src/index.ts"
       ]
     }
   },
