@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@react-monorepo-multiple-apps/shared-components": [
+        "libs/shared-components/src/index.js"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
