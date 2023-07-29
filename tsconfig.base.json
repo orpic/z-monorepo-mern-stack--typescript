@@ -15,11 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@react-monorepo-multiple-apps/shared-components": [
-        "libs/shared-components/src/index.js"
-      ],
-      "@react-monorepo-multiple-apps/shared-ui-component": [
-        "libs/shared-ui-component/src/index.ts"
+      "@react-monorepo-multiple-apps/shared-comp": [
+        "libs/shared-comp/src/index.ts"
       ]
     }
   },
