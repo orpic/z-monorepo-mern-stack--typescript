@@ -1,0 +1,21 @@
+{
+  "projects": {
+    "default": "koviato"
+  },
+  "targets": {
+    "koviato": {
+      "hosting": {
+        "koviato": [
+          "koviato"
+        ],
+        "koviato-app1": [
+          "koviato-app1"
+        ],
+        "koviato-app2": [
+          "koviato-app2"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
