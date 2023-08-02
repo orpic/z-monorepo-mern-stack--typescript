@@ -15,6 +15,12 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@react-monorepo-multiple-apps/protected-api": [
+        "libs/protected-api/src/index.ts"
+      ],
+      "@react-monorepo-multiple-apps/public-api": [
+        "libs/public-api/src/index.ts"
+      ],
       "@react-monorepo-multiple-apps/shared-comp": [
         "libs/shared-comp/src/index.ts"
       ]
