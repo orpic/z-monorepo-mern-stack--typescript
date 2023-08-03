@@ -23,7 +23,8 @@
       ],
       "@react-monorepo-multiple-apps/shared-comp": [
         "libs/shared-comp/src/index.ts"
-      ]
+      ],
+      "@react-monorepo-multiple-apps/ui-comp": ["libs/ui-comp/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
