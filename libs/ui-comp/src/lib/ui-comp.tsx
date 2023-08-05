@@ -7,7 +7,7 @@ export interface UiCompProps {
 export function UiComp({ customText }: UiCompProps) {
   return (
     <div className={styles['container']}>
-      <h1>Welcome to UiComp!</h1>
+      <h1>Welcome to UiComp! - Changes made in ui comp</h1>
       <h2>This the custom text - {customText}</h2>
     </div>
   );
