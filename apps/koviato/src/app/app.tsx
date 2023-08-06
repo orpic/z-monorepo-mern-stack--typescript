@@ -1,12 +1,9 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { UiComp } from '@react-monorepo-multiple-apps/ui-comp';
-
-import NxWelcome from './nx-welcome';
 
 export function App() {
   return (
     <div>
-      <NxWelcome title="koviato" />
+      <h1 className="text-2xl">Hello world</h1>
       <UiComp customText="This is main app" />
     </div>
   );
